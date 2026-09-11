@@ -1,0 +1,105 @@
+{
+  "style": "minimalism",
+  "cover": {
+    "title": "{{TITLE}}",
+    "scenario": "{{SCENARIO}}",
+    "subtitle": "{{SUBTITLE}}",
+    "presenter": "strategic-marketing-director v2.1.0",
+    "date": "2026"
+  },
+  "sections": [
+    {
+      "layout": "agenda",
+      "title": "方案结构",
+      "kicker": "五阶段工作流 · 9 组决策框架",
+      "items": [
+        "核心结论",
+        "STP 定位 + 4P 组合",
+        "POES 渠道 + 增长路径",
+        "行动建议（P0 / P1）",
+        "风险预案",
+        "复盘指标"
+      ]
+    },
+    {
+      "layout": "metrics",
+      "title": "核心结论",
+      "kicker": "结论先行 · So What 检验",
+      "conclusion": "{{CONCLUSION}}",
+      "frameworks": "{{FRAMEWORKS}}",
+      "metrics": [
+        {"num": "{{METRIC_1_NUM}}", "label": "{{METRIC_1_LABEL}}"},
+        {"num": "{{METRIC_2_NUM}}", "label": "{{METRIC_2_LABEL}}"},
+        {"num": "{{METRIC_3_NUM}}", "label": "{{METRIC_3_LABEL}}"},
+        {"num": "{{METRIC_4_NUM}}", "label": "{{METRIC_4_LABEL}}"}
+      ]
+    },
+    {
+      "layout": "two_column",
+      "title": "STP 定位 + 4P 组合",
+      "kicker": "框架3 营销组合策略",
+      "left": {
+        "title": "STP",
+        "bullets": [
+          "细分 Segmentation：____",
+          "目标 Targeting：____",
+          "定位 Positioning：____"
+        ]
+      },
+      "right": {
+        "title": "4P",
+        "bullets": [
+          "产品 Product：____",
+          "价格 Price：____",
+          "渠道 Place：____",
+          "推广 Promotion：____"
+        ]
+      }
+    },
+    {
+      "layout": "table",
+      "title": "POES 渠道 + 增长路径",
+      "kicker": "框架6 传播与渠道组合",
+      "headers": ["类别", "渠道", "核心指标", "预算占比"],
+      "rows": [
+        ["P 付费", "信息流 / 搜索 / KOL", "____", "____%"],
+        ["O 自有", "官网 SEO / 私域 / 邮件", "____", "____%"],
+        ["E 赢得", "PR / UGC / 自然搜索", "____", "____%"],
+        ["S 共享", "社媒运营 / 裂变分享", "____", "____%"]
+      ]
+    },
+    {
+      "layout": "table",
+      "title": "行动建议（P0 / P1）",
+      "kicker": "框架8 运营与执行管控 · RACI",
+      "headers": ["优先级", "行动项", "负责人", "时间", "预期效果"],
+      "rows": [
+        ["P0", "____", "____", "____", "____"],
+        ["P0", "____", "____", "____", "____"],
+        ["P1", "____", "____", "____", "____"],
+        ["P1", "____", "____", "____", "____"]
+      ]
+    },
+    {
+      "layout": "bullets",
+      "title": "风险预案",
+      "kicker": "六帽思考法 · 黑帽审视",
+      "bullets": [
+        "风险 1：____ → 预案：____",
+        "风险 2：____ → 预案：____",
+        "风险 3：____ → 预案：____"
+      ]
+    },
+    {
+      "layout": "bullets",
+      "title": "复盘指标",
+      "kicker": "框架7 数据评估 · LTV-CAC / RFM / A-B",
+      "bullets": [
+        "北极星指标：____",
+        "AARRR 分层指标：____",
+        "单位经济：LTV / CAC / 回本周期 ____",
+        "实验验证：A/B 显著性 ____"
+      ]
+    }
+  ]
+}
